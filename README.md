@@ -1,8 +1,7 @@
 # Introduction
 
-This set of demos and lab goes along with the coursera course: `Network Principles in Practice: Linux`.  You are welcome to run this code and I try to make it as self explanatory as possible, but some of the explanation will be in the videos for the course.
+This set of demos and lab goes along with the: `Linux networking`.  You are welcome to run this code and I try to make it as self explanatory as possible.
 
-NOTE: Mac M1/M2 users should refer to the guidance [here](/mac-arm/README.md)
 
 # Vagrantfile
 
@@ -32,13 +31,13 @@ vagrant ssh-config
 When you want to stop the VM, you can either run `vagrant suspend` to save the state so you can resume it later with `vagrant up`, or `vagrant halt` to shut the VM down.
 
 
-# Module 1 demos (demo1, demo2, demo3)
+#demos (demo1, demo2, demo3)
 
-Module 1 provides an introduction to Linux networking - so, the material provided will introduce the lab environment, some of the tools we'll use (tshark, scapy), and do some preliminary configuration where we'll set up a bridge in Linux.
+Module 1 provides an introduction to Linux networking -  the material provided will introduce the lab environment, some of the tools use (tshark, scapy), and do some preliminary configuration where a bridge is set up in Linux.
 
 # Lab (lab1)
 
-This is the material provided for the coursera course. A description of the lab and a script to run your solution and package up a submission are provided.
+This is the material provided. A description of the lab and a script to run your solution and package up a submission are provided.
 
 # License
 
